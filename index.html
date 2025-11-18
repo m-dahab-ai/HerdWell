@@ -18,8 +18,8 @@
     iframe {
       border: none;
       width: 100%;
-      height: 600px;
-      margin-top: 20px;
+      height: 500px;
+      margin: 20px 0;
     }
     .note {
       margin-top: 20px;
@@ -29,12 +29,25 @@
   </style>
 </head>
 <body>
-  <h1> HerdWell نظام </h1>
-  <p> متابعة الحالة الصحية للحيوانات لحظة بلحظة.</p>
+  <h1> HerdWell نظام</h1>
+  <p>متابعة الحالة الصحية للحيوانات لحظة بلحظة.</p>
 
-  <!-- ضع رابط Dashboards العام هنا -->
+  <!-- درجة الحرارة -->
+  <h2>درجة الحرارة (Temperature)</h2>
   <iframe src="https://dahab.grafana.net/dashboard/snapshot/dwby2CGjwefrTq5oKCAS0XFgJDYiQONu" allowfullscreen></iframe>
 
-  <p class="note">Powered by HerdWell</p>
+  <!-- الرطوبة -->
+  <h2>الرطوبة (Humidity)</h2>
+  <iframe src="https://dahab.grafana.net/dashboard/snapshot/dwby2CGjwefrTq5oKCAS0XFgJDYiQONu" allowfullscreen></iframe>
+
+  <!-- مستوى الماء -->
+  <h2>مستوى الماء (Water Level)</h2>
+  <iframe src="https://dahab.grafana.net/dashboard/snapshot/dwby2CGjwefrTq5oKCAS0XFgJDYiQONu" allowfullscreen></iframe>
+
+  <!-- نشاط الحيوان -->
+  <h2>نشاط الحيوان (Activity)</h2>
+  <iframe src="https://dahab.grafana.net/dashboard/snapshot/dwby2CGjwefrTq5oKCAS0XFgJDYiQONu" allowfullscreen></iframe>
+
+  <p class="note">Powered by HerdWell </p>
 </body>
 </html>
