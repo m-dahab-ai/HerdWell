@@ -1,0 +1,2 @@
+influxdb-client==1.49.0
+python-dateutil
